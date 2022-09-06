@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Kro</title>
+    <link rel="stylesheet" href="./Shopping Kro_files/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Shopping Kro_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Shopping Kro_files/style.css">
+</head>
+<body>
+    <section id="header" class="navmain">
+        <a href="http://127.0.0.1:5500/index.html#"><img src="./Shopping Kro_files/logo2.2.png" alt=""></a>
+
+        <ul class="navbar">
+            <li><a class="active" href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/shop.html">Shop</a></li>
+            <li><a href="http://127.0.0.1:5500/blog.html">Blog</a></li>
+            <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+            <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+            <li><a href="http://127.0.0.1:5500/cart.html"><img src="./Shopping Kro_files/cart.png" alt=""></a></li>
+
+        </ul>
+        
+    </section>
+
+    <section id="hero" class="hero">
+        <h4>Exchange-offer-deals</h4>
+        <h2>Trade In Offers</h2>
+        <h1>On All Our Products</h1>
+        <p>Save more with coupons $ upto 70% off ! </p>
+        <button>Shop Now</button>
+
+
+    </section>
+
+    <section id="serviceid" class="service">
+        <div class="services-container">
+            <div class="serv1">
+                <img src="./Shopping Kro_files/f1.png" alt="">
+                <p>Free Shipping</p>
+            </div>
+            <div class="serv1">
+                <img src="./Shopping Kro_files/f2.png" alt="">
+                <p>Online Order</p>
+            </div>
+            <div class="serv1">
+                <img src="./Shopping Kro_files/f3.png" alt="">
+                <p>Save Money</p>
+            </div>
+            <div class="serv1">
+                <img src="./Shopping Kro_files/f4.png" alt="">
+                <p>Promotions</p>
+            </div>
+            <div class="serv1">
+                <img src="./Shopping Kro_files/f5.png" alt="">
+                <p>Live Tracking</p>
+            </div>
+            <div class="serv1">
+                <img src="./Shopping Kro_files/f6.png" alt="">
+                <p>24/7 Support</p>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, alias aliquam aliquid veritatis quibusdam deserunt iure repudiandae ut expedita repellendus animi? Consequatur ipsum cum perferendis hic quam suscipit harum repudiandae totam unde a molestiae, illum ullam? Minus labore aspernatur id architecto enim, ullam in a ipsam vel temporibus reprehenderit provident at cupiditate autem quam rem sit maiores soluta atque aperiam laboriosam blanditiis pariatur eveniet! Repudiandae dolore doloremque illo maxime provident unde vel veniam ipsam. Reiciendis, perferendis! Inventore eius excepturi tenetur accusantium natus sint? Accusantium enim asperiores at commodi laboriosam quo, esse distinctio ipsum, quas ex, labore aut excepturi rem. Fugit?</p>
+    </section>
+
+
+
+    <script src="./Shopping Kro_files/main.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
